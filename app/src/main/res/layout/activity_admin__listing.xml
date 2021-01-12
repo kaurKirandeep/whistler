@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Listing"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="start|left"
+            android:gravity="left"
+            android:layoutDirection="ltr"
+            android:orientation="vertical"
+            android:layout_marginEnd="10dp">
+
+            <TextView
+                android:id="@+id/txt_Admin_JobName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textSize="30dp"
+                android:text="Name"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/txt_admin_UName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:textSize="30dp"
+                android:text="Applicant Name"
+                android:textColor="@color/black"/>
+
+
+            <ImageView
+                android:id="@+id/img_admin_listing_Image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@mipmap/logo" />
+
+        </LinearLayout>
+
+</LinearLayout>
